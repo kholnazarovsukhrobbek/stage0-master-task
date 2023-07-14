@@ -7,6 +7,6 @@ public class DigitsSumCalculator {
         int digit3 = (number / 100) % 10;
         int digit4 = number / 1000;
         int sum = digit1 + digit2 + digit3 + digit4;
-        System.out.println("Sum of digits: " + sum);
+        System.out.println(sum);
     }
 }
